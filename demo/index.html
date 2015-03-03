@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Service Worker Ware Test</title>
+</head>
+<body>
+<script>
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('./sw.js');
+    } else {
+        console.info('No SW present :(');
+    }
+</script>
+<p>
+    <a href="devtools.png">Image 1</a>
+</p>
+<p>
+    <a href="tools.png">Image 2</a>
+</p>
+</body>
+</html>
