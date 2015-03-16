@@ -12,7 +12,7 @@ var watch = require('gulp-watch');
 var packageName = require('./package.json').name;
 
 var getBundleName = function () {
-  return packageName + '.min';
+  return packageName;
 };
 
 gulp.task('javascript', function() {

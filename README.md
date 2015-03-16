@@ -3,7 +3,7 @@ zipcacher
 
 # Intro
 
-middleware for [ServiceworkerWare](https://github.com/arcturus/zipcacher), a ServiceWorkers abstraction that works in Chrome (Canary) and Firefox (Nightly).
+middleware for [ServiceworkerWare](https://github.com/arcturus/serviceworkerware), a ServiceWorkers abstraction that works in Chrome (Canary) and Firefox (Nightly).
 
 zipcacher will allow you to specify content to be cached from a zip file during the ServiceWorker installation phase.
 

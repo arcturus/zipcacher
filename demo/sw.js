@@ -1,5 +1,5 @@
-importScripts('../bower_components/serviceworkerware/dist/sww.min.js');
-importScripts('../dist/zipcacher.min.js');
+importScripts('../bower_components/serviceworkerware/dist/sww.js');
+importScripts('../dist/zipcacher.js');
 
 var worker = new self.ServiceWorkerWare();
 
